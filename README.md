@@ -6,7 +6,7 @@ O **Glossário Técnico** é um projeto que tem como objetivo explicar de forma 
 ## Funcionalidades
 - Explicação de tags HTML fundamentais.
 - Definição e exemplos de propriedades CSS importantes.
-- Conceitos e funções básicas de JavaScript.
+- Algumas funções do JavaScript (em desenvolvimento).
 - Interface simples e intuitiva para facilitar a consulta.
 
 ## Tecnologias Utilizadas
