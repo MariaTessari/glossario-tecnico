@@ -4,6 +4,8 @@ body {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
+    background-image: url(imagens/butterfly.png);
+    background-size: 100%;
 }
 
 .principal {
@@ -75,7 +77,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     transition: transform 0.2s ease;
-    width: 253px;
+    width: 80%;
     height: auto;
     align-items: center;
     margin: auto;
@@ -115,13 +117,14 @@ h1 {
     margin-top: 5%;
     margin-bottom: 6%;
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 
 
 .card {
     background-color: #f2dfff;
-    width: 400px;
+    width: 20%;
     border-radius: 5px;
     padding: 10px;
     margin-right: 2%;
@@ -130,7 +133,7 @@ h1 {
 }
 
 .card img {
-    width: 299px;
+    width: 260px;
     border-radius: 5px;
 }
 

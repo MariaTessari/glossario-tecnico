@@ -72,44 +72,82 @@
     <div class="grupo-cards">
         <div class="card">
             <div class="item">
-                <strong>margin</strong> – Ele define o espaçamento externo de um certo elemento.<br>
-                <code>margin: 0 </code>
+                <strong>text-decoration</strong> – Adiciona decoração ao texto. <br>
+                <code>text-decoration: underline </code>
               </div>
-            <p>A propriedade "margin" basicamente controla o espaçamento de um elemento com seus elementos vizinhos. Um exemplo é o espaçamento entre um card e o outro, ou entre o cabeçalho e o título.</p>
+            <p>A propriedade "text-decoration" tem um nome bem óbvio para sua função: adicionar decoração no texto, podendo ser rabiscado, ou sublinhado.</p>
         </div>
     
     
         <div class="card">
             <div class="item">
-                <strong>padding</strong> – Define o espaçamento interno entre o conteúdo de um certo elemento e a sua borda.<br>
-                <code>padding: 20</code>
+                <strong>overflow</strong> – Controla como um elemento que excedo o tamanho será tratado. <br>
+                <code>overflow: scroll</code>
               </div>
-            <p>A propriedade "padding" controla qual é o espaçamento interno entre um conteúdo como imagem, texto e a borda do elemento onde ele está. Um exemplo é o espaçamento de um texto e a borda do card em que ele está.   </p>
+            <p>Essa propriedade controlara como um conteúdo que excede o tamanho do elemento em que ele está, será tratado. Podendo adicionar as famosas barras de rolagem.   </p>
     
         </div>
     
         <div class="card">
             <div class="item">
-                <strong>display</strong> – Determina como o elemento se comporta em relação aos outros elementos.<br>
-                <code>display: flex;</code>
+                <strong>transform</strong> – Coloca transformações 2D e 3D em elementos.<br>
+                <code>transform: rotate(20deg)</code>
               </div>
-            <p>A propriedade "display" é utilizada principalmente definir o seu comportamento de layout. Define se o conteúdo 
-                vai ocupar todo o espaço disponível ou apenas o espaço necessário, se vai haver quebra de linha ou não, e etc.  </p>
+            <p>A propriedade transform permite aplicar transformações 2D e 3D em elementos, como rotação, escala, inclinação e etc. Ele acontece modificando as coordenadas do elemento, coomo no exemplo acima que foi aplicada uma rotação de 20 graus. A propriedade "transform" pode ser animada com a propriedade "transition".  </p>
     
         </div>
     
         <div class="card">
             <div class="item">
-                <strong>text-transform</strong> – Utilizada para definir como o texto deve ser exibido (letras maiúsculas apenas, definir a letra inicial)<br>
-                <code>text-transform: uppercase</code>
+                <strong>justify-content</strong> – Controla o alinhamneot horizontal dos itens.<br>
+                <code>justify-content: space between </code>
               </div>
-            <p>A propriedade "text-transform" pode definir como um texto deve ser capitalizado.
-                 Alguns exemplos são o "uppercase", que deixa todas as letras maiúsculas; "lowercase", que deixa todas as letras minúsculas e o "none" que mantém o texto como está. </p>
+            <p> Essa propriedade serve para controlar o alinhamento horizontal dos itens dentro de um contêiner, mostrando como o espaço restante é distribuído. Por exemplo, o "space between" distribui os itens de forma uniforme com um espaço entre eles, em espaços nas extremidades.</p>
     
         </div>
     </div>
 
-    <footer>&copy; Todos os Direitos Reservados. Maria Eduarda Tessari</footer>
+    <!-- Terceira linha -->
+
+<div class="grupo-cards">
+        <div class="card">
+            <div class="item">
+                <strong>transition</strong> – Cria animações suaves entre diferentes estados de um elemento. <br>
+                <code> transition: width 0.5s ease-in-out, background-color 0.3s linear </code>
+              </div>
+            <p>A propriedade "transition" cria uma animação entre diferentes estados de um mesmo elemento no HTML, como por exemplo quando um usuário passa o mouse por cima desse elemento, o fazendo mudar de cor. Essa propriedade acaba com aquela mudança bruta de elementos, colocando uma transição suave para que fique mais bonito e confortável de ver</p>
+        </div>
+    
+    
+        <div class="card">
+            <div class="item">
+                <strong>outline</strong> – Cria um contorno fora da borda do elemento. <br>
+                <code>outline: 2px solid black</code>
+              </div>
+            <p>Essa propriedade cria uma linha ao redor de um elemento fora da sua borda. Como não faz parte do modelo de caixa do elemento, não irá mudar o espaço ocupado pelo elemento. Serve para destacar um elemento visualmente, principalmente quando este elemento está em foco.   </p>
+    
+        </div>
+    
+        <div class="card">
+            <div class="item">
+                <strong>list-style</strong> – Controla aparência dos marcadores de lista.<br>
+                <code>list-style: none</code>
+              </div>
+            <p>Essa propriedade é utilizada para controlar a aparência dos marcadores de uma lista (como listas ordenadas, "ol", e as não ordenadas, "ul"). Permite definir qual o tipo de marcador (círculo, quadrado, número), a imagem a ser usada e a posição do marcador em relação ao resto da lista.  </p>
+    
+        </div>
+    
+        <div class="card">
+            <div class="item">
+                <strong>border-radius</strong> – Cria cantos arredondados no elemento.<br>
+                <code>border-radius: 10px </code>
+              </div>
+            <p> Essa propriedade é utilizada para arredondar os cantos de um elemento, para deixa-los redondos ao invés de retos. No exemplo, o border-radius está arredondando os cantos em 10 pixels. Pode ser aplicado em diversos elementos criando um visual suave e melhorando sua aparência. </p>
+    
+        </div>
+    </div>
+
+    <footer>&copy; Site desenvolvido por Maria Eduarda Tessari, com fins educativos. Todos os direitos reservados. </footer>
 
 </body>
 </html>
